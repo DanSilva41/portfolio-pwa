@@ -8,6 +8,16 @@ export const MainMenuContainer = styled.nav`
         li {
             display: inline-block;
             margin-right: 50px;
-        }
+            font-size: 18px;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                :hover {
+                    color: #ccc;
+                }
+            }
+            }
     }
 `
